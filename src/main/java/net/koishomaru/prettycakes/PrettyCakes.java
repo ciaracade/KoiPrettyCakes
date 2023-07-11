@@ -1,6 +1,7 @@
 package net.koishomaru.prettycakes;
 
 import com.mojang.logging.LogUtils;
+import net.koishomaru.prettycakes.block.ModBlocks;
 import net.koishomaru.prettycakes.items.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -29,6 +30,8 @@ public class PrettyCakes
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(modEventBus);
+        ModCreativeModTabs.register(modEventBus);
+        ModBlocks.register(modEventBus);
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 

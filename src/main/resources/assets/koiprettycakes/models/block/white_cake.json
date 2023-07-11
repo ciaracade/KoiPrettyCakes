@@ -1,0 +1,6 @@
+{
+  "parent": "Minecraft:block/cub_all",
+  "textures": {
+    "all": "koiprettycakes:block/white_block"
+  }
+}
