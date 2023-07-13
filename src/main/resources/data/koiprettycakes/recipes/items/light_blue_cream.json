@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "cream",
+  "ingredients": [
+    {
+      "item": "minecraft:light_blue_dye"
+    },
+    {
+      "item": "koiprettycakes:cream"
+    }
+  ],
+  "result": {
+    "item": "koiprettycakes:light_blue_cream"
+  }
+}

@@ -18,7 +18,39 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, PrettyCakes.MODID);
 
+    public static final RegistryObject<Block> CAKE_BASE = registerBlock("cake_base",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CAKE)));
     public static final RegistryObject<Block> WHITE_CAKE = registerBlock("white_cake",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CAKE)));
+    public static final RegistryObject<Block> ORANGE_CAKE = registerBlock("orange_cake",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CAKE)));
+    public static final RegistryObject<Block> MAGENTA_CAKE = registerBlock("magenta_cake",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CAKE)));
+    public static final RegistryObject<Block> LIGHT_BLUE_CAKE = registerBlock("light_blue_cake",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CAKE)));
+    public static final RegistryObject<Block> YELLOW_CAKE = registerBlock("yellow_cake",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CAKE)));
+    public static final RegistryObject<Block> LIME_CAKE = registerBlock("lime_cake",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CAKE)));
+    public static final RegistryObject<Block> PINK_CAKE = registerBlock("pink_cake",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CAKE)));
+    public static final RegistryObject<Block> GRAY_CAKE = registerBlock("gray_cake",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CAKE)));
+    public static final RegistryObject<Block> LIGHT_GRAY_CAKE = registerBlock("light_gray_cake",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CAKE)));
+    public static final RegistryObject<Block> CYAN_CAKE = registerBlock("cyan_cake",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CAKE)));
+    public static final RegistryObject<Block> PURPLE_CAKE = registerBlock("purple_cake",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CAKE)));
+    public static final RegistryObject<Block> BLUE_CAKE = registerBlock("blue_cake",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CAKE)));
+    public static final RegistryObject<Block> BROWN_CAKE = registerBlock("brown_cake",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CAKE)));
+    public static final RegistryObject<Block> GREEN_CAKE = registerBlock("green_cake",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CAKE)));
+    public static final RegistryObject<Block> RED_CAKE = registerBlock("red_cake",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CAKE)));
+    public static final RegistryObject<Block> BLACK_CAKE = registerBlock("black_cake",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.CAKE)));
 
 

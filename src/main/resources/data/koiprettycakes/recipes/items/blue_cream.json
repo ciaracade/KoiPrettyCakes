@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "blue_dye",
+  "group": "cream",
   "ingredients": [
     {
       "item": "minecraft:blue_dye"

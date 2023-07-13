@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "group": "brown_dye",
+  "group": "cream",
   "ingredients": [
     {
       "item": "minecraft:cocoa_beans"
@@ -14,4 +14,4 @@
     "item": "koiprettycakes:brown_cream"
   }
 }
-}
+

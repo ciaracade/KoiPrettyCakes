@@ -39,7 +39,39 @@ public class ModCreativeModTabs {
                         pOutput.accept(Items.BROWN_DYE);
                         pOutput.accept(Items.BLACK_DYE);
                         pOutput.accept(Items.WHITE_DYE);
+                        pOutput.accept(ModBlocks.CAKE_BASE.get());
                         pOutput.accept(ModBlocks.WHITE_CAKE.get());
+                        pOutput.accept(ModBlocks.ORANGE_CAKE.get());
+                        pOutput.accept(ModBlocks.MAGENTA_CAKE.get());
+                        pOutput.accept(ModBlocks.LIGHT_BLUE_CAKE.get());
+                        pOutput.accept(ModBlocks.YELLOW_CAKE.get());
+                        pOutput.accept(ModBlocks.LIME_CAKE.get());
+                        pOutput.accept(ModBlocks.PINK_CAKE.get());
+                        pOutput.accept(ModBlocks.GRAY_CAKE.get());
+                        pOutput.accept(ModBlocks.LIGHT_GRAY_CAKE.get());
+                        pOutput.accept(ModBlocks.CYAN_CAKE.get());
+                        pOutput.accept(ModBlocks.PURPLE_CAKE.get());
+                        pOutput.accept(ModBlocks.BLUE_CAKE.get());
+                        pOutput.accept(ModBlocks.BROWN_CAKE.get());
+                        pOutput.accept(ModBlocks.GREEN_CAKE.get());
+                        pOutput.accept(ModBlocks.RED_CAKE.get());
+                        pOutput.accept(ModBlocks.BLACK_CAKE.get());
+                        pOutput.accept(ModItems.WHITE_CREAM.get());
+                        pOutput.accept(ModItems.ORANGE_CREAM.get());
+                        pOutput.accept(ModItems.MAGENTA_CREAM.get());
+                        pOutput.accept(ModItems.LIGHT_BLUE_CREAM.get());
+                        pOutput.accept(ModItems.YELLOW_CREAM.get());
+                        pOutput.accept(ModItems.LIME_CREAM.get());
+                        pOutput.accept(ModItems.PINK_CREAM.get());
+                        pOutput.accept(ModItems.GRAY_CREAM.get());
+                        pOutput.accept(ModItems.LIGHT_GRAY_CREAM.get());
+                        pOutput.accept(ModItems.CYAN_CREAM.get());
+                        pOutput.accept(ModItems.PURPLE_CREAM.get());
+                        pOutput.accept(ModItems.BLUE_CREAM.get());
+                        pOutput.accept(ModItems.BROWN_CREAM.get());
+                        pOutput.accept(ModItems.GREEN_CREAM.get());
+                        pOutput.accept(ModItems.RED_CREAM.get());
+                        pOutput.accept(ModItems.BLACK_CREAM.get());
 
 
                     })
