@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "black_dye",
+  "ingredients": [
+    {
+      "item": "minecraft:ink_sac"
+    },
+    {
+      "item": "koiprettycakes:cream"
+    }
+  ],
+  "result": {
+    "item": "koiprettycakes:black_cream"
+  }
+}

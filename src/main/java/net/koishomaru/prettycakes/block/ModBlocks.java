@@ -21,6 +21,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> WHITE_CAKE = registerBlock("white_cake",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.CAKE)));
 
+
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

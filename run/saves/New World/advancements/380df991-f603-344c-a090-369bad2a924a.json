@@ -12,5 +12,23 @@
     },
     "done": false
   },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2023-07-11 20:27:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2023-07-11 20:27:45 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-07-12 23:33:27 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
