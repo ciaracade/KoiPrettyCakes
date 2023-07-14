@@ -1,34 +1,33 @@
-[13Jul2023 13:14:23.023] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, /Users/ciaracade/.gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 47.1.1, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[13Jul2023 13:14:23.044] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.6 by Eclipse Adoptium; OS Mac OS X arch aarch64 version 13.3.1
-[13Jul2023 13:14:23.198] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[13Jul2023 13:14:23.590] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[13Jul2023 13:14:23.957] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.5
-[13Jul2023 13:14:23.978] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.4
-[13Jul2023 13:14:23.994] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.3
-[13Jul2023 13:14:24.006] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.2
-[13Jul2023 13:14:24.027] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.1
-[13Jul2023 13:14:24.117] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.1 got version 4.1
-[13Jul2023 13:14:24.467] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/Users/ciaracade/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23121!/ Service=ModLauncher Env=CLIENT
-[13Jul2023 13:14:24.641] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Apple M1 GL version 4.1 Metal - 83.1, Apple
-[13Jul2023 13:14:25.093] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/ciaracade/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.1-47.1.1/366dbd7206b33709078fa7ac0e8cceaa440f6aef/javafmllanguage-1.20.1-47.1.1.jar is missing mods.toml file
-[13Jul2023 13:14:25.095] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/ciaracade/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.1-47.1.1/610c4306bd4e1d260fb1081844e4b92885845037/lowcodelanguage-1.20.1-47.1.1.jar is missing mods.toml file
-[13Jul2023 13:14:25.097] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/ciaracade/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.1-47.1.1/fd1d6c3fbd66f7ad72eddd6e212646bd522c5377/mclanguage-1.20.1-47.1.1.jar is missing mods.toml file
-[13Jul2023 13:14:25.100] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/ciaracade/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.1-47.1.1/284b4c40b0fb677a88556ba7702074b4154aab0f/fmlcore-1.20.1-47.1.1.jar is missing mods.toml file
-[13Jul2023 13:14:25.246] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[13Jul2023 13:14:27.276] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, /Users/ciaracade/.gradle/caches/forge_gradle/assets, --assetIndex, 5]
-[13Jul2023 13:14:33.724] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 243 milliseconds
-[13Jul2023 13:14:35.499] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/ciaracade/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1/forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar%23184!/assets/.mcassetsroot' uses unexpected schema
-[13Jul2023 13:14:35.499] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/ciaracade/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1/forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar%23184!/data/.mcassetsroot' uses unexpected schema
-[13Jul2023 13:14:35.512] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13Jul2023 13:14:35.518] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[13Jul2023 13:14:35.596] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[13Jul2023 13:14:36.130] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.1, for MC 1.20.1 with MCP 20230612.114412
-[13Jul2023 13:14:36.142] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.1 Initialized
-[13Jul2023 13:14:38.314] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [koiprettycakes]
-[13Jul2023 13:14:39.512] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[13Jul2023 13:14:39.854] [Worker-Main-4/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[13Jul2023 13:14:40.511] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[13Jul2023 13:14:40.542] [Worker-Main-3/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model koiprettycakes:models/block/white_cake.json
+[13Jul2023 23:02:18.028] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, /Users/ciaracade/.gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 47.1.1, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[13Jul2023 23:02:18.030] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.6 by Eclipse Adoptium; OS Mac OS X arch aarch64 version 13.3.1
+[13Jul2023 23:02:18.088] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[13Jul2023 23:02:18.318] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[13Jul2023 23:02:18.462] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.5
+[13Jul2023 23:02:18.476] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.4
+[13Jul2023 23:02:18.485] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.3
+[13Jul2023 23:02:18.492] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.2
+[13Jul2023 23:02:18.503] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.1
+[13Jul2023 23:02:18.526] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.1 got version 4.1
+[13Jul2023 23:02:18.822] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/Users/ciaracade/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23121!/ Service=ModLauncher Env=CLIENT
+[13Jul2023 23:02:18.912] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Apple M1 GL version 4.1 Metal - 83.1, Apple
+[13Jul2023 23:02:19.199] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/ciaracade/.gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.1-47.1.1/366dbd7206b33709078fa7ac0e8cceaa440f6aef/javafmllanguage-1.20.1-47.1.1.jar is missing mods.toml file
+[13Jul2023 23:02:19.200] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/ciaracade/.gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.1-47.1.1/610c4306bd4e1d260fb1081844e4b92885845037/lowcodelanguage-1.20.1-47.1.1.jar is missing mods.toml file
+[13Jul2023 23:02:19.201] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/ciaracade/.gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.1-47.1.1/fd1d6c3fbd66f7ad72eddd6e212646bd522c5377/mclanguage-1.20.1-47.1.1.jar is missing mods.toml file
+[13Jul2023 23:02:19.202] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/ciaracade/.gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.1-47.1.1/284b4c40b0fb677a88556ba7702074b4154aab0f/fmlcore-1.20.1-47.1.1.jar is missing mods.toml file
+[13Jul2023 23:02:19.315] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[13Jul2023 23:02:20.589] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, /Users/ciaracade/.gradle/caches/forge_gradle/assets, --assetIndex, 5]
+[13Jul2023 23:02:23.563] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 99 milliseconds
+[13Jul2023 23:02:24.489] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/ciaracade/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1/forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar%23184!/assets/.mcassetsroot' uses unexpected schema
+[13Jul2023 23:02:24.489] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/ciaracade/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1/forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar%23184!/data/.mcassetsroot' uses unexpected schema
+[13Jul2023 23:02:24.497] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13Jul2023 23:02:24.501] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[13Jul2023 23:02:24.558] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[13Jul2023 23:02:24.862] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.1, for MC 1.20.1 with MCP 20230612.114412
+[13Jul2023 23:02:24.864] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.1 Initialized
+[13Jul2023 23:02:25.485] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [koiprettycakes]
+[13Jul2023 23:02:25.947] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[13Jul2023 23:02:26.050] [Worker-Main-6/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[13Jul2023 23:02:26.338] [Worker-Main-4/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model koiprettycakes:models/block/white_cake.json
 net.minecraft.ResourceLocationException: Non [a-z0-9_.-] character in namespace of location: Minecraft:block/cub_all
 	at net.minecraft.resources.ResourceLocation.assertValidNamespace(ResourceLocation.java:261) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar%23184!/:?]
 	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:53) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar%23184!/:?]
@@ -50,157 +49,77 @@ net.minecraft.ResourceLocationException: Non [a-z0-9_.-] character in namespace 
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[13Jul2023 13:14:41.134] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.1.1 Target: 47.1.3
-[13Jul2023 13:14:42.138] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/cake_base.json' missing model for variant: 'koiprettycakes:cake_base#'
-[13Jul2023 13:14:42.139] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:block/white_cake' referenced from: koiprettycakes:white_cake#: java.io.FileNotFoundException: koiprettycakes:models/block/white_cake.json
-[13Jul2023 13:14:42.139] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/orange_cake.json' missing model for variant: 'koiprettycakes:orange_cake#'
-[13Jul2023 13:14:42.139] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/magenta_cake.json' missing model for variant: 'koiprettycakes:magenta_cake#'
-[13Jul2023 13:14:42.140] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/light_blue_cake.json' missing model for variant: 'koiprettycakes:light_blue_cake#'
-[13Jul2023 13:14:42.140] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/yellow_cake.json' missing model for variant: 'koiprettycakes:yellow_cake#'
-[13Jul2023 13:14:42.140] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/lime_cake.json' missing model for variant: 'koiprettycakes:lime_cake#'
-[13Jul2023 13:14:42.140] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/pink_cake.json' missing model for variant: 'koiprettycakes:pink_cake#'
-[13Jul2023 13:14:42.140] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/gray_cake.json' missing model for variant: 'koiprettycakes:gray_cake#'
-[13Jul2023 13:14:42.140] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/light_gray_cake.json' missing model for variant: 'koiprettycakes:light_gray_cake#'
-[13Jul2023 13:14:42.140] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/cyan_cake.json' missing model for variant: 'koiprettycakes:cyan_cake#'
-[13Jul2023 13:14:42.140] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/purple_cake.json' missing model for variant: 'koiprettycakes:purple_cake#'
-[13Jul2023 13:14:42.140] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/blue_cake.json' missing model for variant: 'koiprettycakes:blue_cake#'
-[13Jul2023 13:14:42.140] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/brown_cake.json' missing model for variant: 'koiprettycakes:brown_cake#'
-[13Jul2023 13:14:42.140] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/green_cake.json' missing model for variant: 'koiprettycakes:green_cake#'
-[13Jul2023 13:14:42.140] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/red_cake.json' missing model for variant: 'koiprettycakes:red_cake#'
-[13Jul2023 13:14:42.141] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/black_cake.json' missing model for variant: 'koiprettycakes:black_cake#'
-[13Jul2023 13:14:42.151] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:white_cream#inventory' referenced from: koiprettycakes:white_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/white_cream.json
-[13Jul2023 13:14:42.151] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:orange_cream#inventory' referenced from: koiprettycakes:orange_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/orange_cream.json
-[13Jul2023 13:14:42.151] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:magenta_cream#inventory' referenced from: koiprettycakes:magenta_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/magenta_cream.json
-[13Jul2023 13:14:42.151] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:light_blue_cream#inventory' referenced from: koiprettycakes:light_blue_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/light_blue_cream.json
-[13Jul2023 13:14:42.151] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:yellow_cream#inventory' referenced from: koiprettycakes:yellow_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/yellow_cream.json
-[13Jul2023 13:14:42.151] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:lime_cream#inventory' referenced from: koiprettycakes:lime_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/lime_cream.json
-[13Jul2023 13:14:42.151] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:pink_cream#inventory' referenced from: koiprettycakes:pink_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/pink_cream.json
-[13Jul2023 13:14:42.151] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:gray_cream#inventory' referenced from: koiprettycakes:gray_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/gray_cream.json
-[13Jul2023 13:14:42.151] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:light_gray_cream#inventory' referenced from: koiprettycakes:light_gray_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/light_gray_cream.json
-[13Jul2023 13:14:42.152] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:cyan_cream#inventory' referenced from: koiprettycakes:cyan_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/cyan_cream.json
-[13Jul2023 13:14:42.152] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:purple_cream#inventory' referenced from: koiprettycakes:purple_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/purple_cream.json
-[13Jul2023 13:14:42.152] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:blue_cream#inventory' referenced from: koiprettycakes:blue_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/blue_cream.json
-[13Jul2023 13:14:42.152] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:brown_cream#inventory' referenced from: koiprettycakes:brown_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/brown_cream.json
-[13Jul2023 13:14:42.152] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:green_cream#inventory' referenced from: koiprettycakes:green_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/green_cream.json
-[13Jul2023 13:14:42.152] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:red_cream#inventory' referenced from: koiprettycakes:red_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/red_cream.json
-[13Jul2023 13:14:42.152] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:black_cream#inventory' referenced from: koiprettycakes:black_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/black_cream.json
-[13Jul2023 13:14:42.152] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:cake_base#inventory' referenced from: koiprettycakes:cake_base#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/cake_base.json
-[13Jul2023 13:14:42.152] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:orange_cake#inventory' referenced from: koiprettycakes:orange_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/orange_cake.json
-[13Jul2023 13:14:42.152] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:magenta_cake#inventory' referenced from: koiprettycakes:magenta_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/magenta_cake.json
-[13Jul2023 13:14:42.153] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:light_blue_cake#inventory' referenced from: koiprettycakes:light_blue_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/light_blue_cake.json
-[13Jul2023 13:14:42.153] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:yellow_cake#inventory' referenced from: koiprettycakes:yellow_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/yellow_cake.json
-[13Jul2023 13:14:42.153] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:lime_cake#inventory' referenced from: koiprettycakes:lime_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/lime_cake.json
-[13Jul2023 13:14:42.153] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:pink_cake#inventory' referenced from: koiprettycakes:pink_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/pink_cake.json
-[13Jul2023 13:14:42.153] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:gray_cake#inventory' referenced from: koiprettycakes:gray_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/gray_cake.json
-[13Jul2023 13:14:42.154] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:light_gray_cake#inventory' referenced from: koiprettycakes:light_gray_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/light_gray_cake.json
-[13Jul2023 13:14:42.154] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:cyan_cake#inventory' referenced from: koiprettycakes:cyan_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/cyan_cake.json
-[13Jul2023 13:14:42.154] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:purple_cake#inventory' referenced from: koiprettycakes:purple_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/purple_cake.json
-[13Jul2023 13:14:42.154] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:blue_cake#inventory' referenced from: koiprettycakes:blue_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/blue_cake.json
-[13Jul2023 13:14:42.154] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:brown_cake#inventory' referenced from: koiprettycakes:brown_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/brown_cake.json
-[13Jul2023 13:14:42.154] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:green_cake#inventory' referenced from: koiprettycakes:green_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/green_cake.json
-[13Jul2023 13:14:42.154] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:red_cake#inventory' referenced from: koiprettycakes:red_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/red_cake.json
-[13Jul2023 13:14:42.155] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:black_cake#inventory' referenced from: koiprettycakes:black_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/black_cake.json
-[13Jul2023 13:14:45.172] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[13Jul2023 13:14:45.172] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[13Jul2023 13:14:45.795] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device CoreAudio Default
-[13Jul2023 13:14:45.799] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[13Jul2023 13:14:45.927] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[13Jul2023 13:14:45.943] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[13Jul2023 13:14:45.944] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[13Jul2023 13:14:45.944] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[13Jul2023 13:14:45.945] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[13Jul2023 13:14:45.959] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[13Jul2023 13:14:45.959] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[13Jul2023 13:14:45.961] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[13Jul2023 13:14:45.961] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[13Jul2023 13:14:46.364] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[13Jul2023 13:14:46.504] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[13Jul2023 13:14:46.505] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[13Jul2023 13:14:46.506] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[13Jul2023 13:14:46.783] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[13Jul2023 13:14:58.235] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[13Jul2023 13:14:58.277] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: koiprettycakes:cake_base Expected: 1003 Got: 1004
-[13Jul2023 13:14:58.278] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: koiprettycakes:white_cream Expected: 1256 Got: 1257
-[13Jul2023 13:14:58.278] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: koiprettycakes:orange_cream Expected: 1257 Got: 1258
-[13Jul2023 13:14:58.278] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: koiprettycakes:magenta_cream Expected: 1258 Got: 1259
-[13Jul2023 13:14:58.278] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: koiprettycakes:light_blue_cream Expected: 1259 Got: 1260
-[13Jul2023 13:14:58.279] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: koiprettycakes:yellow_cream Expected: 1260 Got: 1261
-[13Jul2023 13:14:58.279] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: koiprettycakes:lime_cream Expected: 1261 Got: 1262
-[13Jul2023 13:14:58.279] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: koiprettycakes:pink_cream Expected: 1262 Got: 1263
-[13Jul2023 13:14:58.279] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: koiprettycakes:gray_cream Expected: 1263 Got: 1264
-[13Jul2023 13:14:58.279] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: koiprettycakes:light_gray_cream Expected: 1264 Got: 1265
-[13Jul2023 13:14:58.279] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: koiprettycakes:cyan_cream Expected: 1265 Got: 1266
-[13Jul2023 13:14:58.279] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: koiprettycakes:purple_cream Expected: 1266 Got: 1267
-[13Jul2023 13:14:58.279] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: koiprettycakes:blue_cream Expected: 1267 Got: 1268
-[13Jul2023 13:14:58.279] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: koiprettycakes:brown_cream Expected: 1268 Got: 1269
-[13Jul2023 13:14:58.279] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: koiprettycakes:green_cream Expected: 1269 Got: 1270
-[13Jul2023 13:14:58.279] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: koiprettycakes:red_cream Expected: 1270 Got: 1271
-[13Jul2023 13:14:58.279] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: koiprettycakes:black_cream Expected: 1271 Got: 1272
-[13Jul2023 13:14:58.279] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: koiprettycakes:cake_base Expected: 1272 Got: 1273
-[13Jul2023 13:14:59.768] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe koiprettycakes:blocks/white_cake
-com.google.gson.JsonSyntaxException: Unknown item 'minecraft:cake_base'
-	at net.minecraft.world.item.crafting.ShapedRecipe.lambda$itemFromJson$2(ShapedRecipe.java:307) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:306) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.world.item.crafting.Ingredient.valueFromJson(Ingredient.java:219) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.world.item.crafting.Ingredient.fromJson(Ingredient.java:194) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe.keyFromJson(ShapedRecipe.java:293) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.fromJson(ShapedRecipe.java:321) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.fromJson(ShapedRecipe.java:316) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:180) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:73) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:34) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:12) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:65) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:166) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:132) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:145) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:163) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:113) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:181) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:169) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadLevel(WorldOpenFlows.java:65) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.loadWorld(WorldSelectionList.java:575) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:474) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:413) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:298) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:42) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:97) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:437) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:94) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:199) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:106) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:198) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:207) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1199) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:723) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:218) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.1.1.jar:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.1.1.jar:?]
-	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.1-47.1.1.jar:?]
-	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.1.1.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[13Jul2023 13:14:59.805] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe koiprettycakes:items/green_cream
+[13Jul2023 23:02:26.342] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[13Jul2023 23:02:26.727] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.1.1 Target: 47.1.8
+[13Jul2023 23:02:27.243] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:block/white_cake' referenced from: koiprettycakes:white_cake#: java.io.FileNotFoundException: koiprettycakes:models/block/white_cake.json
+[13Jul2023 23:02:27.243] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/orange_cake.json' missing model for variant: 'koiprettycakes:orange_cake#'
+[13Jul2023 23:02:27.243] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/magenta_cake.json' missing model for variant: 'koiprettycakes:magenta_cake#'
+[13Jul2023 23:02:27.244] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/light_blue_cake.json' missing model for variant: 'koiprettycakes:light_blue_cake#'
+[13Jul2023 23:02:27.244] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/yellow_cake.json' missing model for variant: 'koiprettycakes:yellow_cake#'
+[13Jul2023 23:02:27.244] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/lime_cake.json' missing model for variant: 'koiprettycakes:lime_cake#'
+[13Jul2023 23:02:27.244] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/pink_cake.json' missing model for variant: 'koiprettycakes:pink_cake#'
+[13Jul2023 23:02:27.244] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/gray_cake.json' missing model for variant: 'koiprettycakes:gray_cake#'
+[13Jul2023 23:02:27.244] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/light_gray_cake.json' missing model for variant: 'koiprettycakes:light_gray_cake#'
+[13Jul2023 23:02:27.244] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/cyan_cake.json' missing model for variant: 'koiprettycakes:cyan_cake#'
+[13Jul2023 23:02:27.244] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/purple_cake.json' missing model for variant: 'koiprettycakes:purple_cake#'
+[13Jul2023 23:02:27.244] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/blue_cake.json' missing model for variant: 'koiprettycakes:blue_cake#'
+[13Jul2023 23:02:27.244] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/brown_cake.json' missing model for variant: 'koiprettycakes:brown_cake#'
+[13Jul2023 23:02:27.244] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/green_cake.json' missing model for variant: 'koiprettycakes:green_cake#'
+[13Jul2023 23:02:27.244] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/red_cake.json' missing model for variant: 'koiprettycakes:red_cake#'
+[13Jul2023 23:02:27.244] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'koiprettycakes:blockstates/black_cake.json' missing model for variant: 'koiprettycakes:black_cake#'
+[13Jul2023 23:02:27.254] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:white_cream#inventory' referenced from: koiprettycakes:white_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/white_cream.json
+[13Jul2023 23:02:27.254] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:orange_cream#inventory' referenced from: koiprettycakes:orange_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/orange_cream.json
+[13Jul2023 23:02:27.254] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:magenta_cream#inventory' referenced from: koiprettycakes:magenta_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/magenta_cream.json
+[13Jul2023 23:02:27.254] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:light_blue_cream#inventory' referenced from: koiprettycakes:light_blue_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/light_blue_cream.json
+[13Jul2023 23:02:27.254] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:yellow_cream#inventory' referenced from: koiprettycakes:yellow_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/yellow_cream.json
+[13Jul2023 23:02:27.254] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:lime_cream#inventory' referenced from: koiprettycakes:lime_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/lime_cream.json
+[13Jul2023 23:02:27.254] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:pink_cream#inventory' referenced from: koiprettycakes:pink_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/pink_cream.json
+[13Jul2023 23:02:27.254] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:gray_cream#inventory' referenced from: koiprettycakes:gray_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/gray_cream.json
+[13Jul2023 23:02:27.254] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:light_gray_cream#inventory' referenced from: koiprettycakes:light_gray_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/light_gray_cream.json
+[13Jul2023 23:02:27.254] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:cyan_cream#inventory' referenced from: koiprettycakes:cyan_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/cyan_cream.json
+[13Jul2023 23:02:27.254] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:purple_cream#inventory' referenced from: koiprettycakes:purple_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/purple_cream.json
+[13Jul2023 23:02:27.254] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:blue_cream#inventory' referenced from: koiprettycakes:blue_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/blue_cream.json
+[13Jul2023 23:02:27.255] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:brown_cream#inventory' referenced from: koiprettycakes:brown_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/brown_cream.json
+[13Jul2023 23:02:27.255] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:green_cream#inventory' referenced from: koiprettycakes:green_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/green_cream.json
+[13Jul2023 23:02:27.255] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:red_cream#inventory' referenced from: koiprettycakes:red_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/red_cream.json
+[13Jul2023 23:02:27.255] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:black_cream#inventory' referenced from: koiprettycakes:black_cream#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/black_cream.json
+[13Jul2023 23:02:27.255] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:cake_base#inventory' referenced from: koiprettycakes:cake_base#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/cake_base.json
+[13Jul2023 23:02:27.255] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:orange_cake#inventory' referenced from: koiprettycakes:orange_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/orange_cake.json
+[13Jul2023 23:02:27.255] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:magenta_cake#inventory' referenced from: koiprettycakes:magenta_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/magenta_cake.json
+[13Jul2023 23:02:27.255] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:light_blue_cake#inventory' referenced from: koiprettycakes:light_blue_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/light_blue_cake.json
+[13Jul2023 23:02:27.255] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:yellow_cake#inventory' referenced from: koiprettycakes:yellow_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/yellow_cake.json
+[13Jul2023 23:02:27.255] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:lime_cake#inventory' referenced from: koiprettycakes:lime_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/lime_cake.json
+[13Jul2023 23:02:27.255] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:pink_cake#inventory' referenced from: koiprettycakes:pink_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/pink_cake.json
+[13Jul2023 23:02:27.255] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:gray_cake#inventory' referenced from: koiprettycakes:gray_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/gray_cake.json
+[13Jul2023 23:02:27.255] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:light_gray_cake#inventory' referenced from: koiprettycakes:light_gray_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/light_gray_cake.json
+[13Jul2023 23:02:27.255] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:cyan_cake#inventory' referenced from: koiprettycakes:cyan_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/cyan_cake.json
+[13Jul2023 23:02:27.255] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:purple_cake#inventory' referenced from: koiprettycakes:purple_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/purple_cake.json
+[13Jul2023 23:02:27.255] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:blue_cake#inventory' referenced from: koiprettycakes:blue_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/blue_cake.json
+[13Jul2023 23:02:27.255] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:brown_cake#inventory' referenced from: koiprettycakes:brown_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/brown_cake.json
+[13Jul2023 23:02:27.255] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:green_cake#inventory' referenced from: koiprettycakes:green_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/green_cake.json
+[13Jul2023 23:02:27.255] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:red_cake#inventory' referenced from: koiprettycakes:red_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/red_cake.json
+[13Jul2023 23:02:27.255] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'koiprettycakes:black_cake#inventory' referenced from: koiprettycakes:black_cake#inventory: java.io.FileNotFoundException: koiprettycakes:models/item/black_cake.json
+[13Jul2023 23:02:27.945] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model koiprettycakes:cake_base#:
+    minecraft:textures/atlas/blocks.png:minecraft:cake_base
+[13Jul2023 23:02:29.042] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[13Jul2023 23:02:29.042] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[13Jul2023 23:02:29.187] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device CoreAudio Default
+[13Jul2023 23:02:29.189] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[13Jul2023 23:02:29.328] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[13Jul2023 23:02:29.341] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[13Jul2023 23:02:29.342] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[13Jul2023 23:02:29.343] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[13Jul2023 23:02:29.344] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[13Jul2023 23:02:29.349] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[13Jul2023 23:02:29.349] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[13Jul2023 23:02:29.349] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[13Jul2023 23:02:29.350] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[13Jul2023 23:02:29.565] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[13Jul2023 23:02:29.663] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[13Jul2023 23:02:29.664] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[13Jul2023 23:02:29.664] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[13Jul2023 23:02:29.917] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[13Jul2023 23:03:14.806] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe koiprettycakes:items/green_cream
 com.google.gson.JsonSyntaxException: Unknown item 'minecraft:cactus_green'
 	at net.minecraft.world.item.crafting.ShapedRecipe.lambda$itemFromJson$2(ShapedRecipe.java:307) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -224,15 +143,11 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:cactus_green'
 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:132) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:145) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:163) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:113) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:181) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:169) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadLevel(WorldOpenFlows.java:65) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.loadWorld(WorldSelectionList.java:575) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:474) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:413) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:298) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.openFresh(CreateWorldScreen.java:131) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
+	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.lambda$init$2(SelectWorldScreen.java:48) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:38) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:55) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:175) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
 	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:42) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
 	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:97) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
 	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:437) ~[forge-1.20.1-47.1.1_mapped_parchment_2023.07.09-1.20.1-recomp.jar:?]
@@ -263,53 +178,55 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:cactus_green'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[13Jul2023 13:14:59.811] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[13Jul2023 13:14:59.917] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[13Jul2023 13:15:00.728] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[13Jul2023 13:15:00.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[13Jul2023 13:15:03.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[13Jul2023 13:15:07.890] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2023 13:15:07.929] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2023 13:15:07.948] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2023 13:15:07.948] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2023 13:15:07.948] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2023 13:15:07.948] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2023 13:15:07.948] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2023 13:15:07.948] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2023 13:15:07.948] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2023 13:15:07.949] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2023 13:15:08.435] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[13Jul2023 13:15:08.934] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[13Jul2023 13:15:09.440] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 57%
-[13Jul2023 13:15:09.939] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
-[13Jul2023 13:15:09.940] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6518 ms
-[13Jul2023 13:15:09.961] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[13Jul2023 13:15:10.452] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[13Jul2023 13:15:10.479] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[13Jul2023 13:15:10.587] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[13Jul2023 13:15:12.048] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[13Jul2023 13:15:12.153] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:8ee3c149] logged in with entity id 233 at (-169.59030864204473, 64.0, -56.49987254065375)
-[13Jul2023 13:15:12.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[13Jul2023 13:15:12.528] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2217ms or 44 ticks behind
-[13Jul2023 13:15:13.741] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 7 advancements
-[13Jul2023 13:16:05.923] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 12 advancements
-[13Jul2023 13:17:36.920] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 24 advancements
-[13Jul2023 13:21:14.803] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[13Jul2023 13:21:14.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[13Jul2023 13:21:14.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[13Jul2023 13:21:14.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[13Jul2023 13:21:17.166] [Sound engine/ERROR] [com.mojang.blaze3d.audio.OpenAlUtil/]: Stop: Invalid name parameter.
-[13Jul2023 13:21:17.217] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[13Jul2023 13:21:17.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[13Jul2023 13:21:17.225] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[13Jul2023 13:21:17.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[13Jul2023 13:21:17.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[13Jul2023 13:21:17.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[13Jul2023 13:21:18.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[13Jul2023 13:21:18.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[13Jul2023 13:21:18.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[13Jul2023 13:21:18.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[13Jul2023 13:21:18.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13Jul2023 13:21:18.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13Jul2023 13:21:18.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[13Jul2023 13:49:20.536] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[13Jul2023 23:03:14.824] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[13Jul2023 23:03:14.885] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[13Jul2023 23:03:32.801] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[13Jul2023 23:03:32.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13Jul2023 23:03:32.933] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./saves/New World (3)/serverconfig/forge-server.toml is not correct. Correcting
+[13Jul2023 23:03:32.933] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[13Jul2023 23:03:32.933] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[13Jul2023 23:03:32.933] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[13Jul2023 23:03:32.933] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[13Jul2023 23:03:32.933] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[13Jul2023 23:03:32.934] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[13Jul2023 23:03:32.934] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[13Jul2023 23:03:33.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13Jul2023 23:03:33.750] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13Jul2023 23:03:33.896] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[13Jul2023 23:03:34.510] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[13Jul2023 23:03:34.960] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[13Jul2023 23:03:35.401] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 96%
+[13Jul2023 23:03:35.620] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[13Jul2023 23:03:35.626] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2232 ms
+[13Jul2023 23:03:35.700] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[13Jul2023 23:03:35.702] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[13Jul2023 23:03:35.748] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[13Jul2023 23:03:36.089] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[13Jul2023 23:03:36.115] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:af7a01ce] logged in with entity id 2 at (-2.5, -60.0, -5.5)
+[13Jul2023 23:03:36.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[13Jul2023 23:03:36.634] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
+[13Jul2023 23:03:48.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev fell out of the world
+[13Jul2023 23:03:48.442] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev fell out of the world
+[13Jul2023 23:07:06.316] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[13Jul2023 23:07:06.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[13Jul2023 23:07:06.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[13Jul2023 23:07:06.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[13Jul2023 23:09:05.813] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[13Jul2023 23:09:05.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[13Jul2023 23:09:05.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[13Jul2023 23:09:05.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[13Jul2023 23:09:17.920] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2023-07-13_23.09.17.png
+[13Jul2023 23:09:47.833] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[13Jul2023 23:09:47.878] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[13Jul2023 23:09:47.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[13Jul2023 23:09:47.885] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[13Jul2023 23:09:47.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[13Jul2023 23:09:47.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[13Jul2023 23:09:47.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[13Jul2023 23:09:48.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[13Jul2023 23:09:48.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[13Jul2023 23:09:48.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[13Jul2023 23:09:48.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (3)): All chunks are saved
+[13Jul2023 23:09:48.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13Jul2023 23:09:48.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13Jul2023 23:09:48.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

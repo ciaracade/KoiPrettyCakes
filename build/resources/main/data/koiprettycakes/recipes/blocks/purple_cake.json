@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cake",
+  "key": {
+    "A": {
+      "item": "koiprettycakes:purple_cream"
+    },
+    "B": {
+      "item": "koiprettycakes:cake_base"
+    }
+  },
+  "pattern": [
+    "   ",
+    " A ",
+    " B "
+  ],
+  "result": {
+    "item": "koiprettycakes:purple_cake"
+  },
+  "show_notification": true
+}
