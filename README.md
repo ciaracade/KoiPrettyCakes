@@ -1,7 +1,7 @@
 ![Koi Pretty Cakes Title](https://i.imgur.com/u1SlLzK.png)
 
 
-A Minecraft Mod that adds various new cakes to your gameplay!
+🍰 A Minecraft Mod that adds various new cakes to your gameplay!
 
 - Adds new special abilities to cakes in game
 - Easy to craft recipes that allow customization
