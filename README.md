@@ -1,4 +1,4 @@
-![Koi Pretty Cakes Title](https://i.imgur.com/u1SlLzK.png)
+![Koi Pretty Cakes Title](https://i.imgur.com/XwdnV7L.png)
 
 
 🍰 A Minecraft Mod that adds various new cakes to your gameplay!
